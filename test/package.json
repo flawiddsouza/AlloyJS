@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "dev": "alloyjs vite",
+        "build": "alloyjs vite build"
+    },
+    "dependencies": {
+        "alloyjs-ui": "file:../packages/ui"
+    },
+    "devDependencies": {
+        "alloyjs-build": "file:../packages/build"
+    }
+}

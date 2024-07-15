@@ -1,0 +1,22 @@
+{
+    "name": "alloyjs-build",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "tsc -p tsconfig.build.json"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^5.0.5",
+        "typescript": "^5.2.2",
+        "vite": "^5.3.3"
+    },
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "bin": {
+        "alloyjs": "dist/cli.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.10"
+    }
+}
