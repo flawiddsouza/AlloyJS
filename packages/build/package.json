@@ -1,5 +1,5 @@
 {
-    "name": "alloyjs-build",
+    "name": "@flawiddsouza/alloyjs-build",
     "version": "0.0.1",
     "scripts": {
         "build": "tsc -p tsconfig.build.json"
