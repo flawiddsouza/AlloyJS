@@ -1,0 +1,35 @@
+@mixin generate-margin-classes($sizes) {
+    $properties: (
+        top,
+        right,
+        bottom,
+        left
+    );
+
+    @each $property in $properties {
+        $short: str-slice($property, 1, 1);
+
+        @each $size, $value in $sizes {
+            .m#{$short}-#{$size} {
+                margin-#{$property}: $value;
+            }
+        }
+    }
+}
+
+$sizes: (
+    1: 0.25rem,
+    2: 0.5rem,
+    3: 0.75rem,
+    4: 1rem,
+);
+
+@include generate-margin-classes($sizes);
+
+.flex {
+    display: flex;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}

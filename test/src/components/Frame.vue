@@ -1,5 +1,6 @@
 <template>
     <div>{{ appName }} {{ store.message }}</div>
+    <div class="mt-4">Content</div>
 </template>
 
 <script setup lang="ts">
