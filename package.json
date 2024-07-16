@@ -9,6 +9,7 @@
         "nx": "19.4.3"
     },
     "scripts": {
-        "build": "nx run-many -t build"
+        "build": "nx run-many -t build",
+        "publish": "nx release publish"
     }
 }
