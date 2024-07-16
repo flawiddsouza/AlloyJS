@@ -4,8 +4,8 @@
     "workspaces": [
         "packages/*"
     ],
-    "dependencies": {},
     "devDependencies": {
+        "@nx/js": "^19.4.3",
         "nx": "19.4.3"
     },
     "scripts": {
